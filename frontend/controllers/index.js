@@ -1,5 +1,4 @@
 var express = require("express");
-const exphbs = require("express-handlebars");
 var router = express.Router();
 router.use("/home", require(__dirname + "/user/homecontroller"));
 router.use("/products", require(__dirname + "/user/productcontroller"));

@@ -1,5 +1,4 @@
 var express = require("express");
-const exphbs = require("express-handlebars");
 var router = express.Router();
 router.use("/admindashboard", require(__dirname + "/admin/admindashboardcontroller"));
 
